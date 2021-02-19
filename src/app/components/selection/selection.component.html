@@ -1,0 +1,21 @@
+<meta name="vierport"
+content="width=device-width,initial-scale=1.0">
+<h1>CURRENT WEATHER OF 5 INDIAN CITIES</h1>
+<div class=select>
+<form (ngSubmit)="submit()">
+    <h3>Select the desired City:<br></h3>
+    
+    <select (change)="selectChangeHandler($event)" class="dropdown">
+        <option value="Mumbai">Mumbai</option>
+        <option value="Delhi">Delhi</option>
+        <option value="Chennai">Chennai</option>
+        <option value="Kolkata">Kolkata</option>
+        <option value="Kochi">Kochi</option>
+    </select><br>
+    
+    <!--<input type="text" name="city" [(ngModel)]="city"><br>-->
+    
+    <br><input type="submit" value="Submit">
+    
+  </form>
+</div>

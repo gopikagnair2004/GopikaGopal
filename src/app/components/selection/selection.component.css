@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+}
+
+.dropdown{
+    background-color:grey;
+    color:white;
+    padding: 16px;
+    max-width: 300px;
+    border: tomato;
+    cursor: pointer;
+    font-size: 25px;
+    font-family: sans-serif;
+    
+}
+input{
+    font-size: 20px;
+    background-color: green;
+    color: white;
+    
+}
+.select{
+    border-style: inset;
+    background-color: dimgrey;
+    text-align: center;
+    width: 300px;
+    font-family: sans-serif;
+    padding: 50px;
+    position: relative;
+    left: 35%
+}
